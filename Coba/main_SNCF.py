@@ -15,7 +15,7 @@ import time, pickle, argparse, glob, os, shutil
 class SNCF:
     def __init__(self):
         self.name = 'SNCF'
-        root_path = '/home/joe/program/U-Next/Data/SNCF'  # path to the dataset
+        root_path = '/home/joe/program/CoBa/Data/SNCF'  # path to the dataset
         self.path = root_path
         self.label_to_names = {0: 'Ground', 
                                1: 'Vegetation', 
