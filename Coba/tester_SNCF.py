@@ -132,7 +132,7 @@ class ModelTester:
                         confusion_list += [confusion_matrix(labels, preds, labels=dataset.label_values)]
 
                         name = dataset.input_names['test'][i_test] + '.ply'
-                        xyz = self.load_evaluation_points(f'/home/joe/program/U-Next/Data/SNCF/test/{name}')
+                        xyz = self.load_evaluation_points(f'/home/joe/program/CoBa/Data/SNCF/test/{name}')
                         write_ply(join(test_path, 'test_preds', name),
                                 [xyz, preds, labels],  # 坐标在前，标签在后，目前点数不对应（xyz）
                                 ['x', 'y', 'z', 'pred', 'label'])   # 属性名称对应  
