@@ -15,7 +15,7 @@ import time, pickle, argparse, glob, os
 class ExpressRail:
     def __init__(self):
         self.name = 'ExpressRail'
-        self.path = '/home/joe/program/U-Next/Data/ExpressRail-PLY'
+        self.path = '/home/joe/program/CoBa/Data/ExpressRail-PLY'
         self.label_to_names = { 0: 'Rail',              # 铁路
                                 1: 'Support',           # 支撑结构
                                 2: 'Pillar',            # 支柱
