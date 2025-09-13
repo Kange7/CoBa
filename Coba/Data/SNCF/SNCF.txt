@@ -1,0 +1,8 @@
+0: 'Ground', 
+1: 'Vegetation', 
+2: 'Rail', 
+3: 'Poles',
+4: 'Wires', 
+5: 'Signaling', 
+6: 'Fence', 
+7: 'Installation',

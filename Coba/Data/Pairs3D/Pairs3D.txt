@@ -1,0 +1,9 @@
+0: 'ground',
+1: 'building',
+2: 'pole',       # pole - road sign - traffic light
+3: 'bollard',    # bollard - small pole
+4: 'trash',      # trash can
+5: 'barrier',
+6: 'pedestrian',
+7: 'car',
+8: 'natural'     # natural - vegetation
