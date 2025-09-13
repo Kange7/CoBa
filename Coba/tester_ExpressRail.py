@@ -162,9 +162,9 @@ class ModelTester:
 
                             confusion_list += [confusion_matrix(labels, preds, labels=dataset.label_values)]
                             # xyz = dataset.input_xyz['validation'][i_test]  # 改动 3 (1898435, 3) 对应于main中的部分，没有进行升采样
-                            # xyz = self.load_evaluation_points('/home/joe/program/U-Next/Data/Toronto3D/test/L002.ply')  # 调用静态方法
+                            # xyz = self.load_evaluation_points('/home/joe/program/CoBa/Data/Toronto3D/test/L002.ply')  # 调用静态方法
                             name = dataset.input_names['validation'][i_test] + '.ply'
-                            xyz = self.load_evaluation_points(f'/home/joe/program/U-Next/Data/ExpressRail-PLY/test/{name}')
+                            xyz = self.load_evaluation_points(f'/home/joe/program/CoBa/Data/ExpressRail-PLY/test/{name}')
                             # print("Preds:", preds)
                             # print("Preds shape:", preds.shape)
                             # print("Labels:", labels)
